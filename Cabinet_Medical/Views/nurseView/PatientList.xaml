@@ -42,7 +42,7 @@
                                 DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="C:\dev study\Cabinet Medical\Cabinet_Medical\Cabinet_Medical\doctor.png"/>
+                                    <ImageBrush ImageSource="C:\dev study\Cabinet Medical\Cabinet_Medical\Cabinet_Medical\Resources\doctor.png"/>
                                 </Ellipse.Fill>
                             </Ellipse>
                         </Border>
