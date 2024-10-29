@@ -35,14 +35,15 @@
                 <Button Margin="20 28 0 35" Style="{StaticResource topButton}">
                     <Icon:PackIconMaterial Kind="Menu" Width="15" Height="15" />
                 </Button>
-                <Border Grid.Row="1" Background="#623ed0" CornerRadius="0 20 0 30">
+                <Border Grid.Row="1" Background="#005A8D" CornerRadius="0 20 0 30">
                     <DockPanel>
                         <!-- Menu logo -->
                         <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
                                 DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="C:\dev study\Cabinet Medical\Cabinet_Medical\Cabinet_Medical\Resources\doctor.png"/>
+                                    <ImageBrush ImageSource="pack://application:,,,/Resources/Images/doctor1.png" />
+
                                 </Ellipse.Fill>
                             </Ellipse>
                         </Border>
@@ -68,7 +69,7 @@
                             <Button Style="{StaticResource MenuButton}">
                                 <StackPanel Orientation="Horizontal">
                                     <Icon:PackIconMaterial Kind="HumanQueue" Style="{StaticResource MenuButtonIcon}"/>
-                                    <TextBlock Text="file d'attente" />
+                                    <TextBlock Text="file d'attente"  />
                                 </StackPanel>
                             </Button>
                         </StackPanel>

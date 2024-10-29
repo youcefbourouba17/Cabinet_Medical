@@ -105,7 +105,7 @@
         </Style>
 
         <Style x:Key="AddButton" TargetType="Button">
-            <Setter Property="Background" Value="#6741d9"/>
+        <Setter Property="Background" Value="#005A8D"/>
             <Setter Property="Foreground" Value="#ffffff"/>
             <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
             <Setter Property="Width" Value="210"/>
@@ -186,7 +186,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#784ff2"/>
+                <Setter Property="Background" Value="#005A8D"/>
                     <Setter Property="Foreground" Value="#ffffff"/>
 
                 </Trigger>
